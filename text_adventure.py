@@ -28,5 +28,3 @@ if __name__ == "__main__":
     player = create_character()
     # Do something with the name now
 
-
-# TEST COMMMIT PLEASE IGNORE -ZZ #more testing lol #bae more changes asdfas w3erwe
