@@ -1,5 +1,5 @@
 def it_begins():
-    ''' Prints meme adventure in ascii '''
+    """ Prints meme adventure in ascii """
     print "_________________________________________________________________________________________"
     print "    _   _                            __                                                  "
     print "    /  /|                           / |        /                                         "
@@ -9,7 +9,7 @@ def it_begins():
     print "\n"
 
 def create_character():
-    ''' We will probably make this into a class later if this goes anywhere lol'''
+    """ We will probably make this into a class later if this goes anywhere lol """
     print "Welcome to Cralohines. You crash landed on this densely forested planet"
     print "You slowly get up from your horrific landing and look around"
     print "Somehow nothing is broken but your head is bleeding and you can't remember much"
@@ -27,4 +27,3 @@ if __name__ == "__main__":
     it_begins()
     player = create_character()
     # Do something with the name now
-
