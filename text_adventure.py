@@ -25,14 +25,19 @@ def create_character():
 
 if __name__ == "__main__":
     it_begins()
-    name = create_character()
-    print ("\n")
-    print (" 'Hello " + name + ". I am Harambe.' ")
-    print ("\n")
-    print (" A large gorilla sporting a magnificient ERECTION decends from the heavens to greet you.")
-    print (" He gently touches your face ands whispers: ")
-    print ("\n")
-    print (" 'It is okay, my little "+ name + ". I will guide you.")
-    print ("\n")
-    # Do something with the name now
+
+# Set player 1
+p1 = create_character()
+
+# Print Greeting
+print ("\n")
+print (" 'Hello " + p1["name"] + ". I am Harambe.' ")
+print ("\n")
+print (" A large gorilla sporting a magnificient ERECTION decends from the heavens to greet you.")
+print ("\n")
+print (" He gently touches your face ands whispers: ")
+print ("\n")
+print (" 'It is okay, my little "+ p1["name"] + ". I will guide you.")
+print ("\n")
+
 
