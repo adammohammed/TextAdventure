@@ -1,3 +1,5 @@
+from random import randint
+
 def it_begins():
     # Prints meme adventure in ascii
     print "_________________________________________________________________________________________"
@@ -23,6 +25,15 @@ def create_character():
     # you usually want to cast it to the type you want, e.g. int, str, etc.
     return player
 
+def fuck_the_police_you_fucking_homosexual():
+    print('AYYYY LMAO PICK A NUMBER')
+    urDED = int(raw_input("NUMBER 1 TO FIVE "))
+    trickedU = randint(0,30000)
+    if trickedU > 5 or trickedU < 1:
+        print(str(trickedU)+"! WHAT THE FUCK. FUK U DED KID. GAME OVER BITCH")
+    else: print("alright you win this time.")
+
+
 if __name__ == "__main__":
     it_begins()
 
@@ -40,4 +51,4 @@ print ("\n")
 print (" 'It is okay, my little "+ p1["name"] + ". I will guide you.")
 print ("\n")
 
-
+fuck_the_police_you_fucking_homosexual()
