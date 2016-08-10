@@ -40,9 +40,6 @@ def fuck_the_police_you_fucking_homosexual():
 
 
 
-print(rWords)
-
-
 if __name__ == "__main__":
     it_begins()
 
