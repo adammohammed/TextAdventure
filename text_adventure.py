@@ -25,13 +25,22 @@ def create_character():
     # you usually want to cast it to the type you want, e.g. int, str, etc.
     return player
 
+
+# FUCKING DRADNOM INDEX CAUSE EVENTUALLY
+rWords = ['memes','dank','penis','fuck','balls','maps','cardinal','mutable','cats','rockls','FUCK','faro','pharrah','firetruck']
+
+# There is what ghostcrawler would call mechanics.
 def fuck_the_police_you_fucking_homosexual():
     print('AYYYY LMAO PICK A NUMBER')
     urDED = int(raw_input("NUMBER 1 TO FIVE "))
-    trickedU = randint(0,30000)
+    trickedU = randint(0,13)
     if trickedU > 5 or trickedU < 1:
-        print(str(trickedU)+"! WHAT THE FUCK. FUK U DED KID. GAME OVER BITCH")
+        print(str(trickedU)+"! WHAT THE FUCK. FUK U DED KID. GAME OVER BITCH. YOU SHOULDNT HAVE SAID "+rWords[trickedU])
     else: print("alright you win this time.")
+
+
+
+print(rWords)
 
 
 if __name__ == "__main__":
