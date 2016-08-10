@@ -25,8 +25,6 @@ def create_character():
 
 if __name__ == "__main__":
     it_begins()
-    player = create_character()
-    # Do something with the name now
 
     # Set player 1
     p1 = create_character()
